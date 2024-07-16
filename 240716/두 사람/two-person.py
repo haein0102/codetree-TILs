@@ -4,7 +4,7 @@
 #A_age=int(A_age)
 #B_age=int(B_age)
 
-#if (A_sex == 'M' or B_sex == 'M') and (A_age>=19 or B_age >=19):
+#if (A_sex == 'M' or B_sex == 'M') and (A_age>=19 or B_age >=19):  <- 왜 이렇게 하면 안되는 검미?
 #    print(1)
 #else:
 #    print(0)
