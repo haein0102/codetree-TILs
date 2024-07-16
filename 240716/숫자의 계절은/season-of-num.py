@@ -8,3 +8,12 @@ elif 9<=m and m<=11:
     print("Fall")
 else:
     print("Winter")
+
+#if m >= 12 or m <= 2:
+#	print("Winter")
+#elif m <= 5:
+#	print("Spring")
+#elif m <= 8:
+#	print("Summer")
+#else:
+#	print("Fall")
