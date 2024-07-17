@@ -3,9 +3,13 @@ a=int(a)
 b=int(b)
 c=int(c)
 
-if a>=b>=c:
-    print(a)
-elif b>=a>=c:
-    print(b)
+# 최댓값을 찾기
+if a >= b and a >= c:
+    max_value = a
+elif b >= a and b >= c:
+    max_value = b
 else:
-    print(c)
+    max_value = c
+
+# 최댓값 출력
+print(max_value)
